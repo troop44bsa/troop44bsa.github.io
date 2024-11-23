@@ -1,0 +1,49 @@
+.parent {
+  margin: 2px;
+  border-radius:8px;  
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  padding: 2rem;
+  background-color: rgb(252, 234, 131);
+  float:right;
+}
+
+.child-right {
+  margin-left: 10px; /* Pushes elements to the right */
+  text-align: right;
+  float:right;
+}
+.sidebar{
+  border-radius:17px;
+  background-color:rgb(172, 22, 22);
+  margin:10px;
+  padding:10px;
+  margin-right:80%;
+  color:rgb(0, 0, 0);
+
+}
+.parent:hover{
+  background-color:rgb(250, 108, 108);
+}
+
+.element{
+  font-size:20px;
+  padding:4px;
+  border-radius:8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+html{
+  background-color:rgb(252, 239, 150);
+}
